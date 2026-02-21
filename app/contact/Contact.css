@@ -1,5 +1,4 @@
-/* Contact Page Wrapper */
-.contact-page {
+Contact Page Wrapper .contact-page {
   min-height: 100vh;
   background-color: #fff;
 }
@@ -16,10 +15,8 @@
 .contact-hero-background {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.03) 0.0625rem,
-      transparent 0.0625rem
-    ),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.03) 0.0625rem, transparent 0.0625rem),
     linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0.0625rem, transparent 0.0625rem);
   background-size: 3.125rem 3.125rem;
   opacity: 0.5;
@@ -128,7 +125,8 @@
 
 .contact-card:hover {
   border-color: #cbd5e1;
-  box-shadow: 0 0.625rem 1.5625rem -0.1875rem rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 0.625rem 1.5625rem -0.1875rem rgba(0, 0, 0, 0.1),
     0 0.25rem 0.375rem -0.125rem rgba(0, 0, 0, 0.05);
   transform: translateY(-0.125rem);
 }
@@ -381,10 +379,8 @@
 .cta-background {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.05) 0.0625rem,
-      transparent 0.0625rem
-    ),
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 0.0625rem, transparent 0.0625rem),
     linear-gradient(
       90deg,
       rgba(255, 255, 255, 0.05) 0.0625rem,

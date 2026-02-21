@@ -11,7 +11,8 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-  const [isMobileServicesDropdownOpen, setIsMobileServicesDropdownOpen] = useState(false);
+  const [isMobileServicesDropdownOpen, setIsMobileServicesDropdownOpen] =
+    useState(false);
   const [isHomepage, setIsHomepage] = useState(false);
 
   const router = useRouter();
@@ -48,7 +49,8 @@ const Navbar = () => {
       if (aboutSection) {
         const navbarHeight = 80;
         const elementPosition = aboutSection.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+        const offsetPosition =
+          elementPosition + window.pageYOffset - navbarHeight;
         window.scrollTo({ top: offsetPosition, behavior: "smooth" });
       }
     } else {
@@ -66,14 +68,29 @@ const Navbar = () => {
       name: "3D Modelling",
       url: null,
       submenu: [
-        { name: "Intelligent Modelling", url: "/service/3d-modelling-intelligent" },
-        { name: "Non-Intelligent Modelling", url: "/service/3d-modelling-non-intelligent" },
+        {
+          name: "Intelligent Modelling",
+          url: "/service/3d-modelling-intelligent",
+        },
+        {
+          name: "Non-Intelligent Modelling",
+          url: "/service/3d-modelling-non-intelligent",
+        },
       ],
     },
-    { name: "Visual Asset Management", url: "/service/visual-asset-management" },
+    {
+      name: "Visual Asset Management",
+      url: "/service/visual-asset-management",
+    },
     { name: "Additive Manufacturing", url: "https://am3dlab.ariesmar.com/" },
-    { name: "Aerial Drone Survey", url: "https://ariesmar.com/ae/en/drone-surveys" },
-    { name: "Underwater Survey", url: "https://ariesmar.com/ae/en/underwater-inspection-and-surveys" },
+    {
+      name: "Aerial Drone Survey",
+      url: "https://ariesmar.com/ae/en/drone-surveys",
+    },
+    {
+      name: "Underwater Survey",
+      url: "https://ariesmar.com/ae/en/underwater-inspection-and-surveys",
+    },
   ];
 
   const toggleMobileMenu = () => {
@@ -86,17 +103,22 @@ const Navbar = () => {
     setIsMobileServicesDropdownOpen(false);
   };
 
-  const isExternal = (url) => url && (url.startsWith("http://") || url.startsWith("https://"));
+  const isExternal = (url) =>
+    url && (url.startsWith("http://") || url.startsWith("https://"));
 
   const navbarClass = isScrolled ? "nav-container scrolled" : "nav-container";
-  const currentLogo = isScrolled ? "/images/common/logo-og.png" : "/images/common/logo.png";
+  const currentLogo = isScrolled
+    ? "/images/common/logo-og.png"
+    : "/images/common/logo.png";
 
   return (
     <div className={navbarClass}>
       {/* Desktop Navigation */}
       <div className="nav-content desktop-nav">
         <div className="nav-left-container">
-          <a href="#" className="nav-hero-links" onClick={handleAboutUsClick}>About Us</a>
+          <a href="#" className="nav-hero-links" onClick={handleAboutUsClick}>
+            About Us
+          </a>
           <div
             className="services-dropdown"
             onMouseEnter={() => setIsServicesDropdownOpen(true)}
@@ -104,25 +126,50 @@ const Navbar = () => {
           >
             <Link href="/services" className="nav-hero-links">
               Services
-              <IoIosArrowDown className={`dropdown-arrow ${isServicesDropdownOpen ? "open" : ""}`} />
+              <IoIosArrowDown
+                className={`dropdown-arrow ${isServicesDropdownOpen ? "open" : ""}`}
+              />
             </Link>
             {isServicesDropdownOpen && (
               <div className="dropdown-menu">
                 {services.map((service, index) => (
                   <div key={index} className="dropdown-item">
                     {isExternal(service.url) ? (
-                      <a href={service.url} className="dropdown-link" target="_blank" rel="noopener noreferrer">{service.name}</a>
+                      <a
+                        href={service.url}
+                        className="dropdown-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {service.name}
+                      </a>
                     ) : (
-                      <Link href={service.url || "#"} className="dropdown-link">{service.name}</Link>
+                      <Link href={service.url || "#"} className="dropdown-link">
+                        {service.name}
+                      </Link>
                     )}
                     {service.submenu && (
                       <div className="submenu">
                         {service.submenu.map((subItem, subIndex) =>
                           isExternal(subItem.url) ? (
-                            <a key={subIndex} href={subItem.url} className="submenu-link" target="_blank" rel="noopener noreferrer">{subItem.name}</a>
+                            <a
+                              key={subIndex}
+                              href={subItem.url}
+                              className="submenu-link"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {subItem.name}
+                            </a>
                           ) : (
-                            <Link key={subIndex} href={subItem.url || "#"} className="submenu-link">{subItem.name}</Link>
-                          )
+                            <Link
+                              key={subIndex}
+                              href={subItem.url || "#"}
+                              className="submenu-link"
+                            >
+                              {subItem.name}
+                            </Link>
+                          ),
                         )}
                       </div>
                     )}
@@ -131,25 +178,43 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link href="/projects" className="nav-hero-links">Projects</Link>
+          <Link href="/projects" className="nav-hero-links">
+            Projects
+          </Link>
         </div>
 
         <Link href="/">
-          <img src={currentLogo} alt="Aries Ideas Logo" className="navHero-logo" />
+          <img
+            src={currentLogo}
+            alt="Aries Ideas Logo"
+            className="navHero-logo"
+          />
         </Link>
 
         <div className="nav-right-container">
-          <Link href="/gallery" className="nav-hero-links">Gallery</Link>
-          <Link href="/contact" className="nav-hero-links transparent-btn">Contact</Link>
+          <Link href="/gallery" className="nav-hero-links">
+            Gallery
+          </Link>
+          <Link href="/contact" className="nav-hero-links transparent-btn">
+            Contact
+          </Link>
         </div>
       </div>
 
       {/* Mobile Navigation */}
       <div className="mobile-nav">
-        <Link href="/"><img src={currentLogo} alt="Logo" className="mobile-logo" /></Link>
-        <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Toggle mobile menu">
+        <Link href="/">
+          <img src={currentLogo} alt="Logo" className="mobile-logo" />
+        </Link>
+        <button
+          className="mobile-menu-toggle"
+          onClick={toggleMobileMenu}
+          aria-label="Toggle mobile menu"
+        >
           <span className={`hamburger ${isMobileMenuOpen ? "open" : ""}`}>
-            <span></span><span></span><span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </span>
         </button>
       </div>
@@ -159,17 +224,46 @@ const Navbar = () => {
         <div className="mobile-menu-overlay">
           <div className="mobile-menu-header">
             <img src={currentLogo} alt="Logo" className="mobile-menu-logo" />
-            <button className="mobile-menu-close" onClick={toggleMobileMenu} aria-label="Close mobile menu">
-              <span className="close-icon"><span></span><span></span></span>
+            <button
+              className="mobile-menu-close"
+              onClick={toggleMobileMenu}
+              aria-label="Close mobile menu"
+            >
+              <span className="close-icon">
+                <span></span>
+                <span></span>
+              </span>
             </button>
           </div>
           <div className="mobile-menu-content">
-            <a href="#" className="mobile-nav-link" onClick={handleAboutUsClick}>About Us</a>
+            <a
+              href="#"
+              className="mobile-nav-link"
+              onClick={handleAboutUsClick}
+            >
+              About Us
+            </a>
             <div className="mobile-services-dropdown">
               <div className="mobile-services-header">
-                <Link href="/services" className="mobile-nav-link mobile-services-link" onClick={closeMobileMenu}>Services</Link>
-                <button className="mobile-dropdown-toggle-btn" onClick={() => setIsMobileServicesDropdownOpen(!isMobileServicesDropdownOpen)} aria-label="Toggle services dropdown">
-                  <IoIosArrowDown className={`mobile-dropdown-arrow ${isMobileServicesDropdownOpen ? "open" : ""}`} />
+                <Link
+                  href="/services"
+                  className="mobile-nav-link mobile-services-link"
+                  onClick={closeMobileMenu}
+                >
+                  Services
+                </Link>
+                <button
+                  className="mobile-dropdown-toggle-btn"
+                  onClick={() =>
+                    setIsMobileServicesDropdownOpen(
+                      !isMobileServicesDropdownOpen,
+                    )
+                  }
+                  aria-label="Toggle services dropdown"
+                >
+                  <IoIosArrowDown
+                    className={`mobile-dropdown-arrow ${isMobileServicesDropdownOpen ? "open" : ""}`}
+                  />
                 </button>
               </div>
               {isMobileServicesDropdownOpen && (
@@ -177,18 +271,48 @@ const Navbar = () => {
                   {services.map((service, index) => (
                     <div key={index} className="mobile-dropdown-item">
                       {isExternal(service.url) ? (
-                        <a href={service.url} className="mobile-dropdown-link" target="_blank" rel="noopener noreferrer" onClick={closeMobileMenu}>{service.name}</a>
+                        <a
+                          href={service.url}
+                          className="mobile-dropdown-link"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={closeMobileMenu}
+                        >
+                          {service.name}
+                        </a>
                       ) : (
-                        <Link href={service.url || "#"} className="mobile-dropdown-link" onClick={closeMobileMenu}>{service.name}</Link>
+                        <Link
+                          href={service.url || "#"}
+                          className="mobile-dropdown-link"
+                          onClick={closeMobileMenu}
+                        >
+                          {service.name}
+                        </Link>
                       )}
                       {service.submenu && (
                         <div className="mobile-submenu">
                           {service.submenu.map((subItem, subIndex) =>
                             isExternal(subItem.url) ? (
-                              <a key={subIndex} href={subItem.url} className="mobile-submenu-link" target="_blank" rel="noopener noreferrer" onClick={closeMobileMenu}>{subItem.name}</a>
+                              <a
+                                key={subIndex}
+                                href={subItem.url}
+                                className="mobile-submenu-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={closeMobileMenu}
+                              >
+                                {subItem.name}
+                              </a>
                             ) : (
-                              <Link key={subIndex} href={subItem.url || "#"} className="mobile-submenu-link" onClick={closeMobileMenu}>{subItem.name}</Link>
-                            )
+                              <Link
+                                key={subIndex}
+                                href={subItem.url || "#"}
+                                className="mobile-submenu-link"
+                                onClick={closeMobileMenu}
+                              >
+                                {subItem.name}
+                              </Link>
+                            ),
                           )}
                         </div>
                       )}
@@ -197,9 +321,27 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            <Link href="/projects" className="mobile-nav-link" onClick={closeMobileMenu}>Projects</Link>
-            <Link href="/gallery" className="mobile-nav-link" onClick={closeMobileMenu}>Gallery</Link>
-            <Link href="/contact" className="mobile-nav-link mobile-contact-btn" onClick={closeMobileMenu}>Contact</Link>
+            <Link
+              href="/projects"
+              className="mobile-nav-link"
+              onClick={closeMobileMenu}
+            >
+              Projects
+            </Link>
+            <Link
+              href="/gallery"
+              className="mobile-nav-link"
+              onClick={closeMobileMenu}
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/contact"
+              className="mobile-nav-link mobile-contact-btn"
+              onClick={closeMobileMenu}
+            >
+              Contact
+            </Link>
           </div>
         </div>
       )}
