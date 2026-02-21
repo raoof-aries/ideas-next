@@ -1,0 +1,1269 @@
+/* Service Hero Section */
+.service-hero {
+  position: relative;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  text-align: center;
+  overflow: hidden;
+  padding: 10rem 2.5rem 4rem 2.5rem;
+}
+
+.service-hero-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #f8f9fb 0%, #ffffff 50%, #f5f7fa 100%);
+  overflow: hidden;
+}
+
+.service-hero-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:  
+    /* Very thin curved connection lines */ radial-gradient(
+      ellipse 900px 300px at 20% 30%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.25) 49.9%,
+      rgba(59, 130, 246, 0.25) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 700px 400px at 60% 20%,
+      transparent 49.8%,
+      rgba(37, 99, 235, 0.22) 49.9%,
+      rgba(37, 99, 235, 0.22) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 800px 350px at 80% 50%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.23) 49.9%,
+      rgba(59, 130, 246, 0.23) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 750px 450px at 40% 70%,
+      transparent 49.8%,
+      rgba(96, 165, 250, 0.2) 49.9%,
+      rgba(96, 165, 250, 0.2) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 850px 320px at 70% 80%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.21) 49.9%,
+      rgba(59, 130, 246, 0.21) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 650px 500px at 15% 60%,
+      transparent 49.8%,
+      rgba(37, 99, 235, 0.19) 49.9%,
+      rgba(37, 99, 235, 0.19) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 780px 380px at 50% 40%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.2) 49.9%,
+      rgba(59, 130, 246, 0.2) 50.1%,
+      transparent 50.2%
+    ),
+    /* Small subtle node points */
+      radial-gradient(
+        circle at 15% 25%,
+        rgba(59, 130, 246, 0.7) 0%,
+        rgba(59, 130, 246, 0.5) 1px,
+        rgba(59, 130, 246, 0.2) 2px,
+        transparent 4px
+      ),
+    radial-gradient(
+      circle at 35% 20%,
+      rgba(37, 99, 235, 0.65) 0%,
+      rgba(37, 99, 235, 0.45) 0.8px,
+      rgba(37, 99, 235, 0.18) 1.8px,
+      transparent 3.5px
+    ),
+    radial-gradient(
+      circle at 52% 15%,
+      rgba(59, 130, 246, 0.75) 0%,
+      rgba(59, 130, 246, 0.55) 1.2px,
+      rgba(59, 130, 246, 0.22) 2.2px,
+      transparent 4.5px
+    ),
+    radial-gradient(
+      circle at 68% 28%,
+      rgba(37, 99, 235, 0.68) 0%,
+      rgba(37, 99, 235, 0.48) 0.9px,
+      rgba(37, 99, 235, 0.19) 1.9px,
+      transparent 3.8px
+    ),
+    radial-gradient(
+      circle at 82% 22%,
+      rgba(59, 130, 246, 0.72) 0%,
+      rgba(59, 130, 246, 0.52) 1.1px,
+      rgba(59, 130, 246, 0.21) 2.1px,
+      transparent 4.2px
+    ),
+    radial-gradient(
+      circle at 90% 45%,
+      rgba(96, 165, 250, 0.66) 0%,
+      rgba(96, 165, 250, 0.46) 0.9px,
+      rgba(96, 165, 250, 0.18) 1.9px,
+      transparent 3.7px
+    ),
+    radial-gradient(
+      circle at 10% 50%,
+      rgba(59, 130, 246, 0.69) 0%,
+      rgba(59, 130, 246, 0.49) 1px,
+      rgba(59, 130, 246, 0.19) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 28% 55%,
+      rgba(37, 99, 235, 0.73) 0%,
+      rgba(37, 99, 235, 0.53) 1.1px,
+      rgba(37, 99, 235, 0.21) 2.1px,
+      transparent 4.3px
+    ),
+    radial-gradient(
+      circle at 45% 50%,
+      rgba(59, 130, 246, 0.71) 0%,
+      rgba(59, 130, 246, 0.51) 1.05px,
+      rgba(59, 130, 246, 0.2) 2.05px,
+      transparent 4.1px
+    ),
+    radial-gradient(
+      circle at 58% 58%,
+      rgba(96, 165, 250, 0.67) 0%,
+      rgba(96, 165, 250, 0.47) 0.95px,
+      rgba(96, 165, 250, 0.18) 1.95px,
+      transparent 3.9px
+    ),
+    radial-gradient(
+      circle at 72% 48%,
+      rgba(59, 130, 246, 0.74) 0%,
+      rgba(59, 130, 246, 0.54) 1.15px,
+      rgba(59, 130, 246, 0.22) 2.15px,
+      transparent 4.4px
+    ),
+    radial-gradient(
+      circle at 18% 75%,
+      rgba(37, 99, 235, 0.72) 0%,
+      rgba(37, 99, 235, 0.52) 1.1px,
+      rgba(37, 99, 235, 0.21) 2.1px,
+      transparent 4.2px
+    ),
+    radial-gradient(
+      circle at 38% 72%,
+      rgba(59, 130, 246, 0.69) 0%,
+      rgba(59, 130, 246, 0.49) 1px,
+      rgba(59, 130, 246, 0.19) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 55% 80%,
+      rgba(96, 165, 250, 0.75) 0%,
+      rgba(96, 165, 250, 0.55) 1.2px,
+      rgba(96, 165, 250, 0.22) 2.2px,
+      transparent 4.5px
+    ),
+    radial-gradient(
+      circle at 75% 78%,
+      rgba(59, 130, 246, 0.68) 0%,
+      rgba(59, 130, 246, 0.48) 0.95px,
+      rgba(59, 130, 246, 0.19) 1.95px,
+      transparent 3.9px
+    ),
+    radial-gradient(
+      circle at 88% 70%,
+      rgba(37, 99, 235, 0.7) 0%,
+      rgba(37, 99, 235, 0.5) 1.05px,
+      rgba(37, 99, 235, 0.2) 2.05px,
+      transparent 4.1px
+    );
+
+  background-size: 100% 100%;
+  background-position: 0 0;
+  opacity: 0.8;
+}
+
+.service-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.service-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.service-hero .highlight {
+  font-weight: 400;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.service-hero p {
+  font-size: 1.25rem;
+  color: #64748b;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Service Overview Section */
+.service-overview {
+  background: #ffffff;
+  position: relative;
+  padding: var(--padding-section3);
+}
+
+.service-overview::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.0625rem;
+  height: 5rem;
+  background: linear-gradient(to bottom, transparent, #e0e0e0, transparent);
+}
+
+.service-overview-content {
+  position: relative;
+  z-index: 2;
+}
+
+.service-overview h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.service-overview > .service-overview-content > p {
+  font-size: 1.3rem;
+  color: #64748b;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Service Features */
+.service-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 2rem;
+}
+
+.feature-item {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(245, 245, 245, 0.6) 50%,
+    transparent 50.5%
+  );
+  background-size: 3.75rem 3.75rem;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.feature-item h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-item p {
+  color: #64748b;
+  font-size: 0.95rem;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-item:hover {
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+}
+
+/* Service Benefits */
+.service-benefits {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-benefits::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    135deg,
+    transparent 49.5%,
+    rgba(240, 240, 240, 0.4) 50%,
+    transparent 50.5%
+  );
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.service-benefits p {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.service-benefits strong {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+/* Service Keywords */
+.service-keywords {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.service-keywords h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.service-keywords p {
+  font-size: 1rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Service Gallery Section */
+.service-gallery {
+  background: #ffffff;
+  position: relative;
+  padding: var(--padding-section-tb);
+}
+
+.service-gallery::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.0625rem;
+  height: 5rem;
+  background: linear-gradient(to bottom, transparent, #e0e0e0, transparent);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31.25rem, 1fr));
+  gap: 1.875rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.08);
+}
+
+.gallery-image-container {
+  position: relative;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-overlay-content {
+  transform: translateY(1.25rem);
+  transition: transform 0.4s ease 0.1s;
+}
+
+.gallery-item:hover .gallery-overlay-content {
+  transform: translateY(0);
+}
+
+.gallery-overlay h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.gallery-overlay p {
+  font-size: 1rem;
+  color: #e2e8f0;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 5rem 2.5rem;
+  background: #f8f9fa;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.0625rem;
+  background: linear-gradient(90deg, transparent, #e0e0e0, transparent);
+  z-index: 2;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #333333;
+  margin-bottom: 1.5625rem;
+  letter-spacing: -0.0625rem;
+  position: relative;
+  z-index: 3;
+}
+
+.cta-description {
+  font-size: 1.1rem;
+  color: #666666;
+  margin-bottom: 2.5rem;
+  max-width: 37.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  position: relative;
+  z-index: 3;
+}
+
+.cta-button {
+  background: transparent;
+  color: #333333;
+  padding: 0.9375rem 2.5rem;
+  border: 0.125rem solid #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  display: inline-block;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20rem;
+  z-index: 3;
+}
+
+.cta-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+
+.cta-button:hover::before {
+  left: 0;
+}
+
+.cta-button:hover {
+  color: #ffffff;
+  transform: translateY(-0.125rem);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5625rem;
+  }
+
+  .service-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-hero {
+    padding: 8rem 1.5rem 3rem 1.5rem;
+  }
+
+  .service-overview,
+  .service-gallery {
+    padding: 3.75rem 1.25rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .gallery-item {
+    min-width: auto;
+  }
+
+  .gallery-image-container {
+    height: 15.625rem;
+  }
+
+  .service-overview h2 {
+    font-size: 2rem;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+  }
+
+  .service-features {
+    gap: 1.5rem;
+  }
+
+  .feature-item {
+    padding: 1.5rem;
+  }
+
+  .service-benefits {
+    padding: 2rem;
+  }
+
+  .service-keywords {
+    padding: 1.5rem;
+  }
+}
+
+/* GNSS Technical Specifications */
+.gnss-technical-specs {
+  background: #1e293b;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.gnss-technical-specs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.1) 50%,
+    transparent 50.5%
+  );
+  background-size: 2rem 2rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.gnss-technical-specs h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.gnss-technical-specs p {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive adjustments for GNSS page */
+@media (max-width: 768px) {
+  .gnss-technical-specs {
+    padding: 2rem;
+  }
+
+  .gnss-technical-specs h3 {
+    font-size: 1.25rem;
+  }
+
+  .gnss-technical-specs p {
+    font-size: 1rem;
+  }
+}
+
+/* Total Station Survey Specific Styles */
+.total-station-services {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.total-station-services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    135deg,
+    transparent 49.5%,
+    rgba(240, 240, 240, 0.4) 50%,
+    transparent 50.5%
+  );
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.total-station-services h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.total-station-services > p {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.service-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.02) 50%,
+    transparent 50.5%
+  );
+  background-size: 1.5rem 1.5rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.service-item h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.service-item:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  background: #f8f9fa;
+}
+
+/* Responsive adjustments for Total Station Survey */
+@media (max-width: 768px) {
+  .total-station-services {
+    padding: 2rem;
+  }
+
+  .total-station-services h3 {
+    font-size: 1.25rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .service-item {
+    padding: 1.25rem;
+  }
+
+  .service-item h4 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+}
+
+/* Tidal Survey */
+
+/* Tidal Survey Specific Styles */
+.tidal-capabilities {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.tidal-capabilities::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    135deg,
+    transparent 49.5%,
+    rgba(240, 240, 240, 0.4) 50%,
+    transparent 50.5%
+  );
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.tidal-capabilities h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.capability-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.capability-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.02) 50%,
+    transparent 50.5%
+  );
+  background-size: 1.5rem 1.5rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.capability-item h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.capability-item p {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.capability-item:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  background: #f8f9fa;
+}
+
+/* Tidal Monitoring Details */
+.tidal-monitoring-details {
+  background: #1e293b;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.tidal-monitoring-details::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.1) 50%,
+    transparent 50.5%
+  );
+  background-size: 2rem 2rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.tidal-monitoring-details h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.monitoring-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.monitoring-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.monitoring-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 50.5%
+  );
+  background-size: 1.5rem 1.5rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.monitoring-item h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.monitoring-item p {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.monitoring-item:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Tidal Applications */
+.tidal-applications {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.tidal-applications::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    135deg,
+    transparent 49.5%,
+    rgba(240, 240, 240, 0.4) 50%,
+    transparent 50.5%
+  );
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.tidal-applications h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.application-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.application-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.02) 50%,
+    transparent 50.5%
+  );
+  background-size: 1.5rem 1.5rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.application-item h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.application-item:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  background: #f8f9fa;
+}
+
+/* Tidal Processing */
+.tidal-processing {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.tidal-processing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    135deg,
+    transparent 49.5%,
+    rgba(240, 240, 240, 0.4) 50%,
+    transparent 50.5%
+  );
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.tidal-processing h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.tidal-processing > p {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.processing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.processing-item {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.processing-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    transparent 49.5%,
+    rgba(37, 99, 235, 0.02) 50%,
+    transparent 50.5%
+  );
+  background-size: 1.5rem 1.5rem;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.processing-item h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5;
+}
+
+.processing-item:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  background: #f8f9fa;
+}
+
+/* Responsive adjustments for Tidal Survey */
+@media (max-width: 768px) {
+  .tidal-capabilities,
+  .tidal-monitoring-details,
+  .tidal-applications,
+  .tidal-processing {
+    padding: 2rem;
+  }
+
+  .tidal-capabilities h3,
+  .tidal-monitoring-details h3,
+  .tidal-applications h3,
+  .tidal-processing h3 {
+    font-size: 1.25rem;
+  }
+
+  .capabilities-grid,
+  .monitoring-grid,
+  .applications-grid,
+  .processing-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .capability-item,
+  .monitoring-item,
+  .application-item,
+  .processing-item {
+    padding: 1.25rem;
+  }
+
+  .capability-item h4,
+  .monitoring-item h4,
+  .application-item h4,
+  .processing-item h4 {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .capabilities-grid,
+  .monitoring-grid,
+  .applications-grid,
+  .processing-grid {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+}

@@ -1,0 +1,224 @@
+.service-section-container {
+  padding: var(--padding-section-lr);
+  position: relative;
+  padding-bottom: 2.5rem;
+  overflow-x: hidden; /* Only prevent horizontal scroll */
+  overflow-y: visible; /* Allow vertical overflow for animations */
+}
+
+.service-section-headerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  /* Remove overflow: hidden to allow navigation button animations */
+}
+
+.service-section-header-textBtn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  /* Remove overflow: hidden to allow navigation button animations */
+}
+
+/* Service Slider Styles */
+.service-slider-container {
+  position: relative;
+  padding: 1rem 0; /* Add padding to accommodate hover animations */
+  /* Remove overflow: hidden to allow card animations */
+}
+
+.services-swiper {
+  padding-bottom: 4rem;
+  /* Allow overflow for card hover animations */
+  overflow: visible;
+}
+
+/* Service Card Styles */
+.service-card {
+  height: 100%;
+  cursor: pointer;
+  /* Allow card to expand during hover */
+  overflow: visible;
+}
+
+.service-image-container {
+  position: relative;
+  height: 18rem;
+  border-radius: 0.3rem;
+  overflow: hidden; /* Keep this for image containment */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 2rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.service-hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 3;
+}
+
+.service-card:hover .service-hover-overlay {
+  opacity: 1;
+}
+
+.service-title {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+  max-width: 80%;
+}
+
+.service-ellipsis {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+/* Custom Navigation Styles */
+.swiper-navigation {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #64748b;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+  border-color: #000;
+  color: #000;
+  transform: translateY(-0.125rem);
+}
+
+.swiper-button-prev-custom.swiper-button-disabled,
+.swiper-button-next-custom.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Separator styles */
+.horizontal-separator-section {
+  height: 1px;
+  background-color: #e0e0e0;
+  width: 100%;
+  transform-origin: left;
+}
+
+/* Pagination Styles */
+.services-swiper .swiper-pagination {
+  bottom: 0;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.services-swiper .swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #cbd5e1;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.services-swiper .swiper-pagination-bullet-active {
+  background: #000;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-section-headerContainer {
+    margin-bottom: 2rem;
+  }
+
+  .service-section-header-textBtn-container {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .service-image-container {
+    height: 12rem;
+  }
+
+  .service-title {
+    font-size: 1rem;
+  }
+
+  .service-overlay {
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .services-swiper {
+    padding-bottom: 3.5rem;
+  }
+
+  .service-slider-container {
+    padding: 0.5rem 0; /* Reduce padding on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .service-image-container {
+    height: 30rem;
+  }
+
+  .service-title {
+    font-size: 2rem;
+  }
+
+  .services-swiper {
+    padding-bottom: 3rem;
+  }
+
+  .service-ellipsis {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Fonts */
+  --font-main: "DM Sans", sans-serif;
+
+  /* Colors */
+  --color-heading-main: #000;
+  --color-text-gray: #868686;
+  --color-text-darkGray: #505050;
+  --color-border-grey: #e0e0e0;
+
+  /* Font Size */
+  --font-size-regular: 1rem;
+
+  /* Gaps */
+  --gap-regular: 1rem;
+
+  /* Padding */
+  --padding-navbar: 2rem 2.5rem;
+  --padding-footer: 3rem 6rem;
+  --padding-hero: 10rem 2.5rem 2rem 2.5rem;
+
+  --padding-navbar-l: 2.5rem;
+
+  --padding-section: 2.5rem;
+  --padding-section2: 5rem 2.5rem;
+  --padding-section3: 5rem 2.5rem 2.5rem 2.5rem;
+  --padding-section-tb: 5rem 0;
+  --padding-page: 10rem 2.5rem 2.5rem 2.5rem;
+  --padding-section-lr: 0rem 2.5rem;
+
+  --padding-section-mobile: 3rem 2.5rem;
+  --padding-section-mobile-lr: 0rem 2rem;
+  --padding-section-mobile-lrb: 0rem 2rem 2rem 2rem;
+  --padding-section-cta-mobile: 7rem 2.5rem;
+
+  --padding-section-big: 6rem 12rem;
+
+  /* Border-radius */
+  --borderRadius-regular: 0.5rem;
+  --borderRadius-s: 0.25rem;
+  --borderRadius-sm: 0.5rem;
+  --borderRadius-m: 0.7rem;
+  --borderRadius-l: 1rem;
+
+  /* Border */
+  --border-common: 0.5px solid rgba(0, 0, 0, 0.08);
+  --border-black: 1px solid rgba(0, 0, 0, 1);
+}
+
+html {
+  font-size: 15px;
+}
+
+@media (max-width: 2601px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media (max-width: 2551px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media (max-width: 2501px) {
+  html {
+    font-size: 24.5px;
+  }
+}
+@media (max-width: 2451px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (max-width: 2401px) {
+  html {
+    font-size: 23.5px;
+  }
+}
+@media (max-width: 2351px) {
+  html {
+    font-size: 23px;
+  }
+}
+@media (max-width: 2301px) {
+  html {
+    font-size: 22.5px;
+  }
+}
+@media (max-width: 2251px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (max-width: 2201px) {
+  html {
+    font-size: 21.5px;
+  }
+}
+@media (max-width: 2151px) {
+  html {
+    font-size: 21px;
+  }
+}
+@media (max-width: 2101px) {
+  html {
+    font-size: 20.5px;
+  }
+}
+@media (max-width: 2051px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (max-width: 2001px) {
+  html {
+    font-size: 19.5px;
+  }
+}
+@media (max-width: 1951px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media (max-width: 1901px) {
+  html {
+    font-size: 18.5px;
+  }
+}
+@media (max-width: 1851px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1801px) {
+  html {
+    font-size: 17.5px;
+  }
+}
+@media (max-width: 1751px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1701px) {
+  html {
+    font-size: 16.5px;
+  }
+}
+@media (max-width: 1651px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1601px) {
+  html {
+    font-size: 15.5px;
+  }
+}
+@media (max-width: 1551px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1501px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+@media (max-width: 1451px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1401px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+@media (max-width: 1351px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1301px) {
+  html {
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 1251px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1201px) {
+  html {
+    font-size: 11.5px;
+  }
+}
+@media (max-width: 1151px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1101px) {
+  html {
+    font-size: 10.5px;
+  }
+}
+@media (max-width: 1051px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1001px) {
+  html {
+    font-size: 9.5px;
+  }
+}
+
+/* === App.css (reset & global utility classes) === */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  all: unset;
+}
+
+* {
+  font-family: var(--font-main);
+}
+
+.transparent-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1.5rem;
+  border: 0.7px solid #fff;
+  border-radius: 2rem !important;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.section-sub-title {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--color-text-gray);
+}
+
+.section-big-title {
+  font-size: 2.4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+}
+
+.text-caps {
+  text-transform: uppercase;
+}
+
+.text-gray {
+  color: var(--color-text-gray);
+}
+
+.text-darkGray {
+  color: var(--color-text-darkGray);
+}
+
+.small-sub-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.small-text-body {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.horizontal-separator-section {
+  height: 1px;
+  background-color: #e0e0e0;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .section-sub-title {
+    font-size: 1.5rem;
+  }
+
+  .section-big-title {
+    font-size: 2.6rem;
+  }
+
+  .small-sub-title {
+    font-size: 2rem;
+  }
+
+  .small-text-body {
+    font-size: 1.5rem;
+  }
+}
+
+.gallery-overlay,
+.gallery-overlay-content {
+  display: none !important;
+}
+
+.gallery-image-container {
+  height: 36rem !important;
+}
+
+.height-100 {
+  height: 100% !important;
+}
+
+/* Inner page hero */
+.page-hero {
+  position: relative;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  text-align: center;
+  overflow: hidden;
+  padding: 10rem 2.5rem 4rem 2.5rem;
+}
+
+.page-hero-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #f8f9fb 0%, #ffffff 50%, #f5f7fa 100%);
+  overflow: hidden;
+}
+
+.page-hero-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(
+      ellipse 900px 300px at 20% 30%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.25) 49.9%,
+      rgba(59, 130, 246, 0.25) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 700px 400px at 60% 20%,
+      transparent 49.8%,
+      rgba(37, 99, 235, 0.22) 49.9%,
+      rgba(37, 99, 235, 0.22) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 800px 350px at 80% 50%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.23) 49.9%,
+      rgba(59, 130, 246, 0.23) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 750px 450px at 40% 70%,
+      transparent 49.8%,
+      rgba(96, 165, 250, 0.2) 49.9%,
+      rgba(96, 165, 250, 0.2) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 850px 320px at 70% 80%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.21) 49.9%,
+      rgba(59, 130, 246, 0.21) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 650px 500px at 15% 60%,
+      transparent 49.8%,
+      rgba(37, 99, 235, 0.19) 49.9%,
+      rgba(37, 99, 235, 0.19) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      ellipse 780px 380px at 50% 40%,
+      transparent 49.8%,
+      rgba(59, 130, 246, 0.2) 49.9%,
+      rgba(59, 130, 246, 0.2) 50.1%,
+      transparent 50.2%
+    ),
+    radial-gradient(
+      circle at 15% 25%,
+      rgba(59, 130, 246, 0.7) 0%,
+      rgba(59, 130, 246, 0.5) 1px,
+      rgba(59, 130, 246, 0.2) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 35% 20%,
+      rgba(37, 99, 235, 0.65) 0%,
+      rgba(37, 99, 235, 0.45) 0.8px,
+      rgba(37, 99, 235, 0.18) 1.8px,
+      transparent 3.5px
+    ),
+    radial-gradient(
+      circle at 52% 15%,
+      rgba(59, 130, 246, 0.75) 0%,
+      rgba(59, 130, 246, 0.55) 1.2px,
+      rgba(59, 130, 246, 0.22) 2.2px,
+      transparent 4.5px
+    ),
+    radial-gradient(
+      circle at 68% 28%,
+      rgba(37, 99, 235, 0.68) 0%,
+      rgba(37, 99, 235, 0.48) 0.9px,
+      rgba(37, 99, 235, 0.19) 1.9px,
+      transparent 3.8px
+    ),
+    radial-gradient(
+      circle at 82% 22%,
+      rgba(59, 130, 246, 0.72) 0%,
+      rgba(59, 130, 246, 0.52) 1.1px,
+      rgba(59, 130, 246, 0.21) 2.1px,
+      transparent 4.2px
+    ),
+    radial-gradient(
+      circle at 90% 45%,
+      rgba(96, 165, 250, 0.66) 0%,
+      rgba(96, 165, 250, 0.46) 0.9px,
+      rgba(96, 165, 250, 0.18) 1.9px,
+      transparent 3.7px
+    ),
+    radial-gradient(
+      circle at 10% 50%,
+      rgba(59, 130, 246, 0.69) 0%,
+      rgba(59, 130, 246, 0.49) 1px,
+      rgba(59, 130, 246, 0.19) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 28% 55%,
+      rgba(37, 99, 235, 0.73) 0%,
+      rgba(37, 99, 235, 0.53) 1.1px,
+      rgba(37, 99, 235, 0.21) 2.1px,
+      transparent 4.3px
+    ),
+    radial-gradient(
+      circle at 45% 50%,
+      rgba(59, 130, 246, 0.71) 0%,
+      rgba(59, 130, 246, 0.51) 1.05px,
+      rgba(59, 130, 246, 0.2) 2.05px,
+      transparent 4.1px
+    ),
+    radial-gradient(
+      circle at 58% 58%,
+      rgba(96, 165, 250, 0.67) 0%,
+      rgba(96, 165, 250, 0.47) 0.95px,
+      rgba(96, 165, 250, 0.18) 1.95px,
+      transparent 3.9px
+    ),
+    radial-gradient(
+      circle at 72% 48%,
+      rgba(59, 130, 246, 0.74) 0%,
+      rgba(59, 130, 246, 0.54) 1.15px,
+      rgba(59, 130, 246, 0.22) 2.15px,
+      transparent 4.4px
+    ),
+    radial-gradient(
+      circle at 18% 75%,
+      rgba(37, 99, 235, 0.72) 0%,
+      rgba(37, 99, 235, 0.52) 1.1px,
+      rgba(37, 99, 235, 0.21) 2.1px,
+      transparent 4.2px
+    ),
+    radial-gradient(
+      circle at 38% 72%,
+      rgba(59, 130, 246, 0.69) 0%,
+      rgba(59, 130, 246, 0.49) 1px,
+      rgba(59, 130, 246, 0.19) 2px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 55% 80%,
+      rgba(96, 165, 250, 0.75) 0%,
+      rgba(96, 165, 250, 0.55) 1.2px,
+      rgba(96, 165, 250, 0.22) 2.2px,
+      transparent 4.5px
+    ),
+    radial-gradient(
+      circle at 75% 78%,
+      rgba(59, 130, 246, 0.68) 0%,
+      rgba(59, 130, 246, 0.48) 0.95px,
+      rgba(59, 130, 246, 0.19) 1.95px,
+      transparent 3.9px
+    ),
+    radial-gradient(
+      circle at 88% 70%,
+      rgba(37, 99, 235, 0.7) 0%,
+      rgba(37, 99, 235, 0.5) 1.05px,
+      rgba(37, 99, 235, 0.2) 2.05px,
+      transparent 4.1px
+    );
+  background-size: 100% 100%;
+  background-position: 0 0;
+  opacity: 0.8;
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.page-hero .highlight {
+  font-weight: 400;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-hero p {
+  font-size: 1.25rem;
+  color: #64748b;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.home-container {
+  max-width: 100%;
+}

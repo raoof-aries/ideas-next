@@ -1,0 +1,210 @@
+:root {
+  /* adjust these if your design uses other spacing */
+  --metric-gap: 2.5rem;
+}
+
+/* --- container / layout (kept mostly the same) --- */
+.about-section-container {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  padding: var(--padding-section);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section-left-container {
+  flex: 2.2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-section-right-container {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* metrics container: use a reasonable gap and center each metric block */
+.about-section-left-metrics-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--metric-gap);
+  padding: 0.5rem 0;
+}
+
+/* each metric: center contents so number sits above label */
+.about-section-metric-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* center to keep number and label aligned */
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0; /* remove extra margin that caused layout stretching */
+  min-width: 6.5rem; /* keep each metric block at least a certain width */
+}
+
+/* metric title wrapper */
+.metric-title {
+  font-size: 2.8rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.25rem;
+  line-height: 1;
+}
+
+/* number + suffix together in the same box */
+/* We make the number use tabular digits and give the whole box a min-width so counting doesn't push layout */
+.metric-number {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  min-width: 6ch; /* enough for "15" and "5.8" with suffix — tweak if you add larger numbers */
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* suffix inside the same box but slightly smaller spacing handled by gap on parent */
+.metric-suffix {
+  margin-left: 0.25rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* description under number */
+.metric-desc {
+  font-size: 1.1rem;
+  text-align: center;
+  color: inherit;
+}
+
+/* Vision/Mission block */
+.about-VsnMsn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* Separator Styles */
+.vertical-separator {
+  width: 1px;
+  background-color: #e0e0e0;
+  margin: 0 3rem;
+}
+
+.horizontal-separator {
+  height: 1px;
+  background-color: #e0e0e0;
+  width: 100%;
+}
+
+/* Mobile separator - hidden on desktop */
+.mobile-horizontal-separator {
+  height: 1px;
+  background-color: #e0e0e0;
+  width: 100%;
+  display: none;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+  :root {
+    --metric-gap: 2rem;
+  }
+  .metric-title {
+    font-size: 2.4rem;
+  }
+  .metric-number {
+    min-width: 5.5ch;
+  }
+  .about-section-metric-container {
+    min-width: 6rem;
+  }
+}
+
+/* Mobile: two columns grid and adjust widths */
+@media (max-width: 768px) {
+  .about-section-container {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .about-section-left-container {
+    flex: none;
+    gap: 2.5rem;
+  }
+
+  .about-section-right-container {
+    flex: none;
+    gap: 2.5rem;
+  }
+
+  .vertical-separator {
+    display: none;
+  }
+  .mobile-horizontal-separator {
+    display: block;
+    margin: 0;
+  }
+
+  .about-section-left-metrics-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 2rem;
+    justify-items: center;
+    padding: 1rem 0;
+  }
+
+  .about-section-metric-container {
+    align-items: center;
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .metric-title {
+    font-size: 4rem;
+    line-height: 1.05;
+  }
+
+  .metric-number {
+    min-width: 6.5ch;
+  }
+
+  .metric-desc {
+    font-size: 1.05rem;
+  }
+
+  .horizontal-separator {
+    margin: 1.5rem 0;
+  }
+
+  .about-VsnMsn-container {
+    gap: 1.2rem;
+    margin: 1rem 0;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  :root {
+    --metric-gap: 1.5rem;
+  }
+  .about-section-left-metrics-container {
+    gap: 1.5rem;
+  }
+  .metric-title {
+    font-size: 3.5rem;
+  }
+  .metric-number {
+    min-width: 5.5ch;
+  }
+  .metric-desc {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,44 @@
+.ctaSection-container {
+  padding: 5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.cta-text-home {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.cta-btn-home {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border: 1px solid #000;
+  border-radius: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.cta-btn-home:hover {
+  background-color: #000;
+  color: #fff;
+}
+.cta-section-home-arrow {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  transition: all 0.3s ease;
+}
+/* Fixed selector: target arrow when button is hovered */
+.cta-btn-home:hover .cta-section-arrow {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+}

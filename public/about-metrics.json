@@ -1,0 +1,20 @@
+{
+  "metrics": [
+    {
+      "number": 5800,
+      "label": "Projects"
+    },
+    {
+      "number": 1200,
+      "label": "Clients"
+    },
+    {
+      "number": 8,
+      "label": "Industries"
+    },
+    {
+      "number": 15,
+      "label": "Years"
+    }
+  ]
+}

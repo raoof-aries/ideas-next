@@ -1,0 +1,133 @@
+{
+  "defaults": {
+    "title": "Aries Ideas",
+    "description": "Aries Ideas offers advanced 3D scanning, mapping, and measurement solutions for various industries.",
+    "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions",
+    "ogImage": "https://www.ideas.ariesmar.com/images/common/logo-og.png",
+    "ogType": "website",
+    "siteName": "Aries Ideas",
+    "baseUrl": "https://www.ideas.ariesmar.com"
+  },
+  "routes": {
+    "/": {
+      "title": "3D Laser Scanning Company in UAE | Offshore & Marine Experts",
+      "description": "UAE-based 3D laser scanning company providing LiDAR surveys, as-built documentation, and high-accuracy 3D modelling for marine & offshore projects.",
+      "keywords": "3d laser scanning company in uae, lidar survey uae, offshore laser scanning, marine laser scanning services, 3d modelling services uae",
+      "canonical": "https://www.ideas.ariesmar.com/",
+      "ogTitle": "3D Laser Scanning Company in UAE – Marine & Offshore Experts",
+      "ogDescription": "Professional 3D laser scanning and LiDAR survey services in the UAE for marine, offshore, and complex engineering projects."
+    },
+    "/services": {
+      "title": "Our Services | Aries Ideas",
+      "description": "Explore Aries Ideas comprehensive range of surveying services including 3D laser scanning, GNSS surveys, total station surveys, and intelligent 3D modelling.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, measurement services",
+      "canonical": "https://www.ideas.ariesmar.com/services",
+      "ogTitle": "Our Services | Aries Ideas",
+      "ogDescription": "Explore Aries Ideas comprehensive range of surveying services including 3D laser scanning, GNSS surveys, total station surveys, and intelligent 3D modelling."
+    },
+    "/contact": {
+      "title": "Contact Us | Aries Ideas",
+      "description": "Get in touch with Aries Ideas surveying team. Contact us for quotes, consultations, and project discussions.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, contact, surveying quotes, consultation",
+      "canonical": "https://www.ideas.ariesmar.com/contact",
+      "ogTitle": "Contact Us | Aries Ideas",
+      "ogDescription": "Get in touch with Aries Ideas surveying team. Contact us for quotes, consultations, and project discussions."
+    },
+    "/projects": {
+      "title": "Our Projects | Aries Ideas",
+      "description": "Browse Aries Ideas portfolio of completed surveying projects showcasing our expertise in 3D scanning, mapping, and surveying solutions.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, surveying projects, case studies, portfolio",
+      "canonical": "https://www.ideas.ariesmar.com/projects",
+      "ogTitle": "Our Projects | Aries Ideas",
+      "ogDescription": "Browse Aries Ideas portfolio of completed surveying projects showcasing our expertise in 3D scanning, mapping, and surveying solutions."
+    },
+    "/gallery": {
+      "title": "Project Gallery | Aries Ideas",
+      "description": "View Aries Ideas project gallery featuring high-quality surveying work, 3D scans, and mapping solutions across various industries.",
+      "keywords": "surveying services, 3D scanning, project gallery, surveying examples, 3D scan results",
+      "canonical": "https://www.ideas.ariesmar.com/gallery",
+      "ogTitle": "Project Gallery | Aries Ideas",
+      "ogDescription": "View Aries Ideas project gallery featuring high-quality surveying work, 3D scans, and mapping solutions across various industries."
+    },
+    "/service/3d-laser-scanning": {
+      "title": "3D Laser Scanning Services | Aries Ideas",
+      "description": "Aries Ideas 3D laser scanning services providing accurate point clouds and detailed measurements for construction, engineering, and architectural projects.",
+      "keywords": "3D laser scanning, point cloud, LiDAR, laser measurement, as-built documentation",
+      "canonical": "https://www.ideas.ariesmar.com/service/3d-laser-scanning",
+      "ogTitle": "3D Laser Scanning Services | Aries Ideas",
+      "ogDescription": "Aries Ideas 3D laser scanning services providing accurate point clouds and detailed measurements for construction, engineering, and architectural projects."
+    },
+    "/service/gnss-survey": {
+      "title": "GNSS Survey Services | Aries Ideas",
+      "description": "Aries Ideas high-precision GNSS survey services offering accurate positioning and mapping solutions using advanced satellite technology.",
+      "keywords": "GNSS survey, GPS survey, satellite positioning, RTK, geolocation",
+      "canonical": "https://www.ideas.ariesmar.com/service/gnss-survey",
+      "ogTitle": "GNSS Survey Services | Aries Ideas",
+      "ogDescription": "Aries Ideas high-precision GNSS survey services offering accurate positioning and mapping solutions using advanced satellite technology."
+    },
+    "/service/total-station-survey": {
+      "title": "Total Station Survey Services | Aries Ideas",
+      "description": "Aries Ideas total station survey services providing precise measurements and mapping for construction and engineering projects.",
+      "keywords": "total station survey, precise measurement, construction survey, dimensional control",
+      "canonical": "https://www.ideas.ariesmar.com/service/total-station-survey",
+      "ogTitle": "Total Station Survey Services | Aries Ideas",
+      "ogDescription": "Aries Ideas total station survey services providing precise measurements and mapping for construction and engineering projects."
+    },
+    "/service/tidal-survey": {
+      "title": "Tidal Survey Services | Aries Ideas",
+      "description": "Aries Ideas specialized tidal survey services for marine and coastal projects, providing accurate water level measurements and tidal analysis.",
+      "keywords": "tidal survey, marine survey, coastal survey, water level measurement, hydrographic",
+      "canonical": "https://www.ideas.ariesmar.com/service/tidal-survey",
+      "ogTitle": "Tidal Survey Services | Aries Ideas",
+      "ogDescription": "Aries Ideas specialized tidal survey services for marine and coastal projects, providing accurate water level measurements and tidal analysis."
+    },
+    "/service/3d-hand-scanning": {
+      "title": "3D Hand Scanning Services | Aries Ideas",
+      "description": "Aries Ideas portable 3D hand scanning services for detailed object capture and reverse engineering applications with high precision results.",
+      "keywords": "3D hand scanning, portable scanning, object scanning, reverse engineering",
+      "canonical": "https://www.ideas.ariesmar.com/service/3d-hand-scanning",
+      "ogTitle": "3D Hand Scanning Services | Aries Ideas",
+      "ogDescription": "Aries Ideas portable 3D hand scanning services for detailed object capture and reverse engineering applications with high precision results."
+    },
+    "/service/3d-modelling-non-intelligent": {
+      "title": "3D Modelling Non-Intelligent Services | Aries Ideas",
+      "description": "Aries Ideas 3D modelling services creating accurate non-intelligent models from survey data for visualization and documentation purposes.",
+      "keywords": "3D modelling, non-intelligent modelling, visualization, CAD modelling",
+      "canonical": "https://www.ideas.ariesmar.com/service/3d-modelling-non-intelligent",
+      "ogTitle": "3D Modelling Non-Intelligent Services | Aries Ideas",
+      "ogDescription": "Aries Ideas 3D modelling services creating accurate non-intelligent models from survey data for visualization and documentation purposes."
+    },
+    "/service/3d-modelling-intelligent": {
+      "title": "3D Modelling Intelligent Services | Aries Ideas",
+      "description": "Aries Ideas advanced intelligent 3D modelling services creating smart models with embedded data for BIM and digital twin applications.",
+      "keywords": "intelligent 3D modelling, BIM modelling, smart models, digital twin",
+      "canonical": "https://www.ideas.ariesmar.com/service/3d-modelling-intelligent",
+      "ogTitle": "3D Modelling Intelligent Services | Aries Ideas",
+      "ogDescription": "Aries Ideas advanced intelligent 3D modelling services creating smart models with embedded data for BIM and digital twin applications."
+    },
+    "/service/visual-asset-management": {
+      "title": "Visual Asset Management Services | Aries Ideas",
+      "description": "Aries Ideas visual asset management services providing comprehensive documentation and management solutions for infrastructure and facilities.",
+      "keywords": "visual asset management, infrastructure documentation, asset inspection, digital twin",
+      "canonical": "https://www.ideas.ariesmar.com/service/visual-asset-management",
+      "ogTitle": "Visual Asset Management Services | Aries Ideas",
+      "ogDescription": "Aries Ideas visual asset management services providing comprehensive documentation and management solutions for infrastructure and facilities."
+    },
+    "/privacy-policy": {
+      "title": "Privacy Policy | Aries Ideas",
+      "description": "Aries Ideas privacy policy outlining how we collect, use, and protect your personal information.",
+      "keywords": "privacy policy, data protection",
+      "canonical": "https://www.ideas.ariesmar.com/privacy-policy",
+      "ogTitle": "Privacy Policy | Aries Ideas",
+      "ogDescription": "Aries Ideas privacy policy outlining how we collect, use, and protect your personal information."
+    },
+    "/terms-and-conditions": {
+      "title": "Terms and Conditions | Aries Ideas",
+      "description": "Aries Ideas terms and conditions governing the use of our services and website.",
+      "keywords": "terms and conditions, legal",
+      "canonical": "https://www.ideas.ariesmar.com/terms-and-conditions",
+      "ogTitle": "Terms and Conditions | Aries Ideas",
+      "ogDescription": "Aries Ideas terms and conditions governing the use of our services and website."
+    }
+  }
+}

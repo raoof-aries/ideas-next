@@ -1,0 +1,153 @@
+/* Hero Section Container */
+.hero-section-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* Black Overlay */
+.hero-section-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Video Container - Force full width, allow height crop */
+.hero-video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* Video Background - Scale to cover full width */
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 56.25vw; /* 16:9 aspect ratio based on width */
+  min-height: 100%;
+  border: 0;
+  pointer-events: none;
+}
+
+/* Video Overlay */
+.hero-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+}
+
+/* Content Overlay */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--padding-hero) !important;
+  box-sizing: border-box;
+}
+
+.hero-heading-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.hero-mainTitle {
+  text-align: left;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.hero-subTitle {
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.hero-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.hero-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.hero-bottom-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #9c9b9b;
+}
+
+.hero-bottom-right-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hero-bottom-right-container > .transparent-btn-2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0.7px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  aspect-ratio: 1;
+  padding: 0.5rem;
+}
+
+/* Mobile optimizations - Ensure full width on all devices */
+@media (max-width: 768px) {
+  .hero-video-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-video {
+    width: 100vw;
+    height: 56.25vw;
+    min-height: 100vh;
+    min-width: 177.78vh;
+  }
+}

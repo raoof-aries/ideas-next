@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)/",
+      "destination": "/$1",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.ideas.ariesmar.com/:path*",
+      "permanent": true,
+      "has": [
+        {
+          "type": "header",
+          "key": "host",
+          "value": "ideas.ariesmar.com"
+        }
+      ]
+    }
+  ]
+}
