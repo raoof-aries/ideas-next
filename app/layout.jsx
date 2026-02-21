@@ -1,11 +1,19 @@
 import "./globals.css";
 import Script from "next/script";
+import { DM_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import { getDefaultMetadata } from "@/data/seoData";
 
 // SEO metadata is read from public/seo-data.json — edit that file to update SEO
 const defaultMeta = getDefaultMetadata();
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-main",
+  fallback: ["sans-serif"],
+  adjustFontFallback: false,
+});
 
 export const metadata = {
   ...defaultMeta,
@@ -172,7 +180,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body>
+      <body className={`${dmSans.className} ${dmSans.variable}`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe

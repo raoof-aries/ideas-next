@@ -1,13 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
-
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Fonts */
-  --font-main: "DM Sans", sans-serif;
 
   /* Colors */
   --color-heading-main: #000;
@@ -56,6 +51,8 @@
 
 html {
   font-size: 15px;
+  font-kerning: normal;
+  font-optical-sizing: auto;
 }
 
 @media (max-width: 2601px) {
@@ -236,6 +233,7 @@ html,
 body {
   width: 100%;
   position: relative;
+  letter-spacing: normal;
 }
 
 html {
@@ -254,7 +252,7 @@ textarea {
 }
 
 * {
-  font-family: var(--font-main);
+  font-family: var(--font-main), "DM Sans", sans-serif;
 }
 
 .transparent-btn {
