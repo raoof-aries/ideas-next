@@ -82,14 +82,14 @@ const Navbar = () => {
       name: "Visual Asset Management",
       url: "/service/visual-asset-management",
     },
-    { name: "Additive Manufacturing", url: "https://am3dlab.ariesmar.com/" },
+    { name: "Additive Manufacturing", url: "https://www.am3dlab.ariesmar.com/" },
     {
       name: "Aerial Drone Survey",
-      url: "https://ariesmar.com/ae/en/drone-surveys",
+      url: "https://www.ariesmar.com/ae/en/drone-surveys",
     },
     {
       name: "Underwater Survey",
-      url: "https://ariesmar.com/ae/en/underwater-inspection-and-surveys",
+      url: "https://www.ariesmar.com/ae/en/underwater-inspection-and-surveys",
     },
   ];
 

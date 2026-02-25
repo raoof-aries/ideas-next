@@ -105,7 +105,7 @@ const ServicesClient = () => {
       description:
         "Advanced 3D printing solutions for rapid prototyping, custom parts manufacturing, and innovative engineering applications across multiple industries.",
       image: "/images/services/am3d2.webp",
-      url: "https://am3dlab.ariesmar.com/",
+      url: "https://www.am3dlab.ariesmar.com/",
       internal: false,
     },
     {
@@ -123,7 +123,7 @@ const ServicesClient = () => {
       description:
         "Revolutionary UAV aerial mapping with 24-hour turnaround, 1cm accuracy, and automated data capture for site assessment and terrain modeling.",
       image: "/images/services/drone1.jpeg",
-      url: "https://ariesmar.com/ae/en/drone-surveys",
+      url: "https://www.ariesmar.com/ae/en/drone-surveys",
       internal: false,
     },
     {
@@ -132,7 +132,7 @@ const ServicesClient = () => {
       description:
         "Comprehensive underwater inspection services using advanced drones for hull inspections, structural integrity assessment, and marine construction support.",
       image: "/images/services/underwaterSurvey2.webp",
-      url: "https://ariesmar.com/ae/en/underwater-inspection-and-surveys",
+      url: "https://www.ariesmar.com/ae/en/underwater-inspection-and-surveys",
       internal: false,
     },
   ];

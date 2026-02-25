@@ -18,9 +18,9 @@ const Footer = () => {
           <Link href="/contact" className="footer-link">Contact</Link>
         </div>
         <div className="footer-social">
-          <a href="http://linkedin.com/company/ariesmarine-and-egineering-services" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/company/ariesmarine-and-egineering-services" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a>
           <a href="https://www.facebook.com/ariesmarineengg" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF /></a>
-          <a href="https://twitter.com/Aries_Engg_Insp" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaXTwitter /></a>
+          <a href="https://www.twitter.com/Aries_Engg_Insp" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaXTwitter /></a>
         </div>
       </div>
       <div className="horizontal-separator-section-2"></div>
