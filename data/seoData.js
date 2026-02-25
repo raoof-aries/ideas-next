@@ -62,7 +62,6 @@ export function getDefaultMetadata() {
   return {
     title: {
       default: defaults.title,
-      template: `%s | Aries Ideas`,
     },
     description: defaults.description,
     keywords: defaults.keywords,
