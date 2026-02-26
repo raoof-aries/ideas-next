@@ -3,10 +3,10 @@ import Script from "next/script";
 import { DM_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-import { getDefaultMetadata } from "@/data/seoData";
+import { getLayoutMetadata } from "@/data/seoData";
 
 // SEO metadata is read from public/seo-data.json — edit that file to update SEO
-const defaultMeta = getDefaultMetadata();
+const layoutMeta = getLayoutMetadata();
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -16,7 +16,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  ...defaultMeta,
+  ...layoutMeta,
   icons: {
     icon: "/favicon.png",
   },

@@ -12,122 +12,162 @@
     "/": {
       "title": "3D Laser Scanning Company in UAE | Offshore & Marine Experts",
       "description": "UAE-based 3D laser scanning company providing LiDAR surveys, as-built documentation, and high-accuracy 3D modelling for marine & offshore projects.",
-      "keywords": "3d laser scanning company in uae, lidar survey uae, offshore laser scanning, marine laser scanning services, 3d modelling services uae",
-      "canonical": "https://www.ideas.ariesmar.com/",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, 3d laser scanning company in uae, lidar survey uae, offshore laser scanning, marine laser scanning services, 3d modelling services uae",
+      "canonical": "https://www.ideas.ariesmar.com",
       "ogTitle": "3D Laser Scanning Company in UAE – Marine & Offshore Experts",
-      "ogDescription": "Professional 3D laser scanning and LiDAR survey services in the UAE for marine, offshore, and complex engineering projects."
+      "ogDescription": "Professional 3D laser scanning and LiDAR survey services in the UAE for marine, offshore, and complex engineering projects.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/services": {
-      "title": "Our Services | Aries Ideas",
-      "description": "Explore Aries Ideas comprehensive range of surveying services including 3D laser scanning, GNSS surveys, total station surveys, and intelligent 3D modelling.",
-      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, measurement services",
+      "title": "Engineering Survey & 3D Laser Scanning Services in UAE",
+      "description": "Engineering survey and 3D laser scanning services in UAE including LiDAR, GNSS, tidal surveys, 3D modelling and asset management for offshore and industrial projects.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, Engineering Survey & 3D Solutions UAE",
       "canonical": "https://www.ideas.ariesmar.com/services",
-      "ogTitle": "Our Services | Aries Ideas",
-      "ogDescription": "Explore Aries Ideas comprehensive range of surveying services including 3D laser scanning, GNSS surveys, total station surveys, and intelligent 3D modelling."
+      "ogTitle": "Engineering Survey & 3D Laser Scanning Services in UAE",
+      "ogDescription": "Engineering survey and 3D laser scanning services in UAE including LiDAR, GNSS, tidal surveys, 3D modelling and asset management for offshore and industrial projects.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/contact": {
-      "title": "Contact Us | Aries Ideas",
-      "description": "Get in touch with Aries Ideas surveying team. Contact us for quotes, consultations, and project discussions.",
-      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, contact, surveying quotes, consultation",
+      "title": "Contact 3D Laser Scanning & Survey Experts in UAE",
+      "description": "Get in touch with our experts for 3D laser scanning, engineering surveys, and advanced 3D solutions for offshore and industrial projects in the UAE",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, 3D Laser Scanning & Survey Experts UAE",
       "canonical": "https://www.ideas.ariesmar.com/contact",
-      "ogTitle": "Contact Us | Aries Ideas",
-      "ogDescription": "Get in touch with Aries Ideas surveying team. Contact us for quotes, consultations, and project discussions."
+      "ogTitle": "Contact 3D Laser Scanning & Survey Experts in UAE",
+      "ogDescription": "Get in touch with our experts for 3D laser scanning, engineering surveys, and advanced 3D solutions for offshore and industrial projects in the UAE",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/projects": {
-      "title": "Our Projects | Aries Ideas",
-      "description": "Browse Aries Ideas portfolio of completed surveying projects showcasing our expertise in 3D scanning, mapping, and surveying solutions.",
-      "keywords": "surveying services, 3D scanning, GNSS survey, surveying projects, case studies, portfolio",
+      "title": "3D Laser Scanning Projects in UAE | Offshore Case Studies",
+      "description": "Explore offshore and industrial 3D laser scanning and engineering survey projects across the UAE. Accurate LiDAR, as-built models & expert delivery.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions",
       "canonical": "https://www.ideas.ariesmar.com/projects",
-      "ogTitle": "Our Projects | Aries Ideas",
-      "ogDescription": "Browse Aries Ideas portfolio of completed surveying projects showcasing our expertise in 3D scanning, mapping, and surveying solutions."
+      "ogTitle": "3D Laser Scanning Projects in UAE | Offshore Case Studies",
+      "ogDescription": "Explore offshore and industrial 3D laser scanning and engineering survey projects across the UAE. Accurate LiDAR, as-built models & expert delivery.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/gallery": {
-      "title": "Project Gallery | Aries Ideas",
-      "description": "View Aries Ideas project gallery featuring high-quality surveying work, 3D scans, and mapping solutions across various industries.",
-      "keywords": "surveying services, 3D scanning, project gallery, surveying examples, 3D scan results",
+      "title": "3D Laser Scanning & Engineering Survey Gallery | UAE",
+      "description": "View our gallery showcasing 3D laser scanning, GNSS surveys, tidal surveys and engineering documentation for marine, offshore and industrial projects in UAE.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions",
       "canonical": "https://www.ideas.ariesmar.com/gallery",
-      "ogTitle": "Project Gallery | Aries Ideas",
-      "ogDescription": "View Aries Ideas project gallery featuring high-quality surveying work, 3D scans, and mapping solutions across various industries."
+      "ogTitle": "3D Laser Scanning & Engineering Survey Gallery | UAE",
+      "ogDescription": "View our gallery showcasing 3D laser scanning, GNSS surveys, tidal surveys and engineering documentation for marine, offshore and industrial projects in UAE.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
+    },
+    "/service-inner": {
+      "title": "Service Details | Aries Ideas",
+      "description": "Detailed information about Aries Ideas surveying services and solutions tailored to your specific project requirements.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, service details, surveying solutions",
+      "canonical": "https://www.ideas.ariesmar.com/service-inner",
+      "ogTitle": "Service Details | Aries Ideas",
+      "ogDescription": "Detailed information about Aries Ideas surveying services and solutions tailored to your specific project requirements.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/3d-laser-scanning": {
-      "title": "3D Laser Scanning Services | Aries Ideas",
-      "description": "Aries Ideas 3D laser scanning services providing accurate point clouds and detailed measurements for construction, engineering, and architectural projects.",
-      "keywords": "3D laser scanning, point cloud, LiDAR, laser measurement, as-built documentation",
+      "title": "3D Laser Scanning Services in UAE | Offshore & Marine LiDAR",
+      "description": "High-accuracy 3D laser scanning services in UAE using LiDAR for offshore platforms, marine structures, oil & gas facilities and industrial plants.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, 3D Laser Scanning Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/3d-laser-scanning",
-      "ogTitle": "3D Laser Scanning Services | Aries Ideas",
-      "ogDescription": "Aries Ideas 3D laser scanning services providing accurate point clouds and detailed measurements for construction, engineering, and architectural projects."
+      "ogTitle": "3D Laser Scanning Services in UAE | Offshore & Marine LiDAR",
+      "ogDescription": "High-accuracy 3D laser scanning services in UAE using LiDAR for offshore platforms, marine structures, oil & gas facilities and industrial plants.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/gnss-survey": {
-      "title": "GNSS Survey Services | Aries Ideas",
-      "description": "Aries Ideas high-precision GNSS survey services offering accurate positioning and mapping solutions using advanced satellite technology.",
-      "keywords": "GNSS survey, GPS survey, satellite positioning, RTK, geolocation",
+      "title": "GNSS Survey Services in UAE | Offshore & Industrial Positioning",
+      "description": "Professional GNSS survey in UAE for offshore platforms, industrial plants & construction projects with high-precision geodetic positioning.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, GNSS Survey Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/gnss-survey",
-      "ogTitle": "GNSS Survey Services | Aries Ideas",
-      "ogDescription": "Aries Ideas high-precision GNSS survey services offering accurate positioning and mapping solutions using advanced satellite technology."
+      "ogTitle": "GNSS Survey Services in UAE | Offshore & Industrial Positioning",
+      "ogDescription": "Professional GNSS survey in UAE for offshore platforms, industrial plants & construction projects with high-precision geodetic positioning.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/total-station-survey": {
-      "title": "Total Station Survey Services | Aries Ideas",
-      "description": "Aries Ideas total station survey services providing precise measurements and mapping for construction and engineering projects.",
-      "keywords": "total station survey, precise measurement, construction survey, dimensional control",
+      "title": "Total Station Surveying Services in UAE | Offshore & Industrial",
+      "description": "Professional total station surveying services in UAE delivering accurate as-built surveys, dimensional control and alignment verification for offshore projects.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, total station surveying in uae",
       "canonical": "https://www.ideas.ariesmar.com/service/total-station-survey",
-      "ogTitle": "Total Station Survey Services | Aries Ideas",
-      "ogDescription": "Aries Ideas total station survey services providing precise measurements and mapping for construction and engineering projects."
+      "ogTitle": "Total Station Surveying Services in UAE | Offshore & Industrial",
+      "ogDescription": "Professional total station surveying services in UAE delivering accurate as-built surveys, dimensional control and alignment verification for offshore projects.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/tidal-survey": {
-      "title": "Tidal Survey Services | Aries Ideas",
-      "description": "Aries Ideas specialized tidal survey services for marine and coastal projects, providing accurate water level measurements and tidal analysis.",
-      "keywords": "tidal survey, marine survey, coastal survey, water level measurement, hydrographic",
+      "title": "Tidal Survey Services in UAE | Offshore & Port Engineering",
+      "description": "Accurate tidal survey services in UAE for offshore platforms, port development and marine construction with real-time tidal monitoring.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, Tidal Survey Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/tidal-survey",
-      "ogTitle": "Tidal Survey Services | Aries Ideas",
-      "ogDescription": "Aries Ideas specialized tidal survey services for marine and coastal projects, providing accurate water level measurements and tidal analysis."
+      "ogTitle": "Tidal Survey Services in UAE | Offshore & Port Engineering",
+      "ogDescription": "Accurate tidal survey services in UAE for offshore platforms, port development and marine construction with real-time tidal monitoring.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/3d-hand-scanning": {
-      "title": "3D Hand Scanning Services | Aries Ideas",
-      "description": "Aries Ideas portable 3D hand scanning services for detailed object capture and reverse engineering applications with high precision results.",
-      "keywords": "3D hand scanning, portable scanning, object scanning, reverse engineering",
+      "title": "3D Handheld Scanning Services in UAE | High-Precision Industrial Scanning",
+      "description": "Advanced 3D handheld scanning services in UAE capturing complex geometries for oil & gas, aerospace, automotive and manufacturing industries.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, 3D Handheld Scanning Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/3d-hand-scanning",
-      "ogTitle": "3D Hand Scanning Services | Aries Ideas",
-      "ogDescription": "Aries Ideas portable 3D hand scanning services for detailed object capture and reverse engineering applications with high precision results."
+      "ogTitle": "3D Handheld Scanning Services in UAE | High-Precision Industrial Scanning",
+      "ogDescription": "Advanced 3D handheld scanning services in UAE capturing complex geometries for oil & gas, aerospace, automotive and manufacturing industries.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/3d-modelling-non-intelligent": {
-      "title": "3D Modelling Non-Intelligent Services | Aries Ideas",
-      "description": "Aries Ideas 3D modelling services creating accurate non-intelligent models from survey data for visualization and documentation purposes.",
-      "keywords": "3D modelling, non-intelligent modelling, visualization, CAD modelling",
+      "title": "Non-Intelligent 3D As-Built Modelling Services in UAE",
+      "description": "Non-intelligent 3D as-built modelling services in UAE delivering accurate geometric models for offshore, marine and industrial planning and retrofits.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, Non-Intelligent 3D Modelling Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/3d-modelling-non-intelligent",
-      "ogTitle": "3D Modelling Non-Intelligent Services | Aries Ideas",
-      "ogDescription": "Aries Ideas 3D modelling services creating accurate non-intelligent models from survey data for visualization and documentation purposes."
+      "ogTitle": "Non-Intelligent 3D As-Built Modelling Services in UAE",
+      "ogDescription": "Non-intelligent 3D as-built modelling services in UAE delivering accurate geometric models for offshore, marine and industrial planning and retrofits.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/3d-modelling-intelligent": {
-      "title": "3D Modelling Intelligent Services | Aries Ideas",
-      "description": "Aries Ideas advanced intelligent 3D modelling services creating smart models with embedded data for BIM and digital twin applications.",
-      "keywords": "intelligent 3D modelling, BIM modelling, smart models, digital twin",
+      "title": "Intelligent 3D Modelling & BIM Services in UAE | Digital Twin Ready",
+      "description": "Intelligent 3D modelling services in UAE including BIM, plant design and digital twin-ready solutions for oil & gas, marine and infrastructure projects.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, Intelligent 3D Modelling Services in UAE",
       "canonical": "https://www.ideas.ariesmar.com/service/3d-modelling-intelligent",
-      "ogTitle": "3D Modelling Intelligent Services | Aries Ideas",
-      "ogDescription": "Aries Ideas advanced intelligent 3D modelling services creating smart models with embedded data for BIM and digital twin applications."
+      "ogTitle": "Intelligent 3D Modelling & BIM Services in UAE | Digital Twin Ready",
+      "ogDescription": "Intelligent 3D modelling services in UAE including BIM, plant design and digital twin-ready solutions for oil & gas, marine and infrastructure projects.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/service/visual-asset-management": {
-      "title": "Visual Asset Management Services | Aries Ideas",
-      "description": "Aries Ideas visual asset management services providing comprehensive documentation and management solutions for infrastructure and facilities.",
-      "keywords": "visual asset management, infrastructure documentation, asset inspection, digital twin",
+      "title": "Visual Asset Management Systems in UAE | 3D Digital Asset Solutions",
+      "description": "Visual asset management systems in UAE providing centralized 3D environments, interactive documentation and lifecycle management for industrial assets.",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, Visual Asset Management Systems",
       "canonical": "https://www.ideas.ariesmar.com/service/visual-asset-management",
-      "ogTitle": "Visual Asset Management Services | Aries Ideas",
-      "ogDescription": "Aries Ideas visual asset management services providing comprehensive documentation and management solutions for infrastructure and facilities."
+      "ogTitle": "Visual Asset Management Systems in UAE | 3D Digital Asset Solutions",
+      "ogDescription": "Visual asset management systems in UAE providing centralized 3D environments, interactive documentation and lifecycle management for industrial assets.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/privacy-policy": {
       "title": "Privacy Policy | Aries Ideas",
       "description": "Aries Ideas privacy policy outlining how we collect, use, and protect your personal information.",
-      "keywords": "privacy policy, data protection",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, privacy policy",
       "canonical": "https://www.ideas.ariesmar.com/privacy-policy",
       "ogTitle": "Privacy Policy | Aries Ideas",
-      "ogDescription": "Aries Ideas privacy policy outlining how we collect, use, and protect your personal information."
+      "ogDescription": "Aries Ideas privacy policy outlining how we collect, use, and protect your personal information.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     },
     "/terms-and-conditions": {
       "title": "Terms and Conditions | Aries Ideas",
       "description": "Aries Ideas terms and conditions governing the use of our services and website.",
-      "keywords": "terms and conditions, legal",
+      "keywords": "surveying services, 3D scanning, GNSS survey, total station, professional surveying, mapping solutions, terms and conditions",
       "canonical": "https://www.ideas.ariesmar.com/terms-and-conditions",
       "ogTitle": "Terms and Conditions | Aries Ideas",
-      "ogDescription": "Aries Ideas terms and conditions governing the use of our services and website."
+      "ogDescription": "Aries Ideas terms and conditions governing the use of our services and website.",
+      "ogImage": "https://www.ideas.ariesmar.com/assets/logo-og-CdAh1yVu.png",
+      "ogType": "website"
     }
   }
 }

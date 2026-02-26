@@ -4,9 +4,10 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^ideas\.ariesmar\.com [NC]
 RewriteRule ^(.*)$ https://www.ideas.ariesmar.com/$1 [L,R=301]
 
-# Remove trailing slash
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)/$ /$1 [R=301,L]
+# Resolve extensionless routes to exported .html files before directory handling
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ /$1.html [L]
 
 # Next.js routing
 RewriteCond %{REQUEST_FILENAME} !-f
