@@ -1,15 +1,23 @@
+Options -MultiViews
+DirectorySlash Off
 RewriteEngine On
 
-# Force www
-RewriteCond %{HTTP_HOST} ^ideas\.ariesmar\.com [NC]
-RewriteRule ^(.*)$ https://www.ideas.ariesmar.com/$1 [L,R=301]
+# Force www while preserving full path/query
+RewriteCond %{HTTP_HOST} ^ideas\.ariesmar\.com$ [NC]
+RewriteRule ^ https://www.ideas.ariesmar.com%{REQUEST_URI} [L,R=301,NE]
 
-# Resolve extensionless routes to exported .html files before directory handling
-RewriteCond %{REQUEST_FILENAME} !-f
+# Remove trailing slash for page URLs only (exclude static dirs/files)
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !^/(?:_next|images|videos)(?:/|$) [NC]
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{2,8}$
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# Resolve extensionless routes to exported .html files
+RewriteCond %{REQUEST_URI} !^/(?:_next|images|videos)(?:/|$) [NC]
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^(.+?)/?$ /$1.html [L]
 
-# Next.js routing
+# Next.js export fallback
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.html [L]
+RewriteRule ^ /index.html [L]
