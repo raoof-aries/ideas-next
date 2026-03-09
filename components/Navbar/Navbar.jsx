@@ -144,7 +144,10 @@ const Navbar = () => {
                         {service.name}
                       </a>
                     ) : (
-                      <Link href={service.url || "#"} className="dropdown-link">
+                      <Link
+                        href={service.url || "#"}
+                        className="dropdown-link"
+                      >
                         {service.name}
                       </Link>
                     )}

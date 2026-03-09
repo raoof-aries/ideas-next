@@ -1,4 +1,4 @@
-Options -MultiViews
+Options -Indexes -MultiViews
 DirectorySlash Off
 RewriteEngine On
 
@@ -6,18 +6,22 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^ideas\.ariesmar\.com$ [NC]
 RewriteRule ^ https://www.ideas.ariesmar.com%{REQUEST_URI} [L,R=301,NE]
 
-# Remove trailing slash for page URLs only (exclude static dirs/files)
+# Let exported assets pass through unchanged
+RewriteRule ^(?:_next|images|videos)(?:/|$) - [L,NC]
+
+# Remove trailing slash for page URLs only
 RewriteCond %{REQUEST_URI} !^/$
-RewriteCond %{REQUEST_URI} !^/(?:_next|images|videos)(?:/|$) [NC]
 RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{2,8}$
 RewriteRule ^(.+)/$ /$1 [L,R=301]
 
-# Resolve extensionless routes to exported .html files
-RewriteCond %{REQUEST_URI} !^/(?:_next|images|videos)(?:/|$) [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+# Resolve extensionless routes to exported .html files before Apache
+# treats similarly named route-data folders as directories.
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{2,8}$
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html -f
 RewriteRule ^(.+?)/?$ /$1.html [L]
 
-# Next.js export fallback
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ /index.html [L]
+# Serve real files directly and let all other misses return Apache 404s.
+# A blanket /index.html fallback can break Next export client navigation.
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
